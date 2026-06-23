@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Color Picker & Palette Grabber",
+  "version": "1.0",
+  "description": "Click anywhere on a page to capture and save colors.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
