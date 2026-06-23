@@ -1,0 +1,26 @@
+{
+  "name": "colorpicker",
+  "version": "1.0.0",
+  "description": "Assignment 6",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crayonshinchan198555-dot/colorpicker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crayonshinchan198555-dot/colorpicker/issues"
+  },
+  "homepage": "https://github.com/crayonshinchan198555-dot/colorpicker#readme",
+  "devDependencies": {
+    "vite": "^8.0.16",
+    "vite-plugin-static-copy": "^4.1.1"
+  }
+}

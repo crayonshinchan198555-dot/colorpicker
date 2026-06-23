@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(()=>{console.log(`🎨 Palette Grabber Background Worker Service Ready!`)}),chrome.storage.onChanged.addListener((e,t)=>{t===`local`&&e.savedColors&&console.log(`New palette synchronized in background:`,e.savedColors.newValue)});
